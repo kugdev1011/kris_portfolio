@@ -77,7 +77,3 @@ Make sure you have installed all of the following prerequisites on your machine:
 - [Material UI](https://mui.com/material-ui/) - React UI component library
 - [Material Icons](https://mui.com/material-ui/material-icons/) - Icons library
 - [Framer Motion](https://www.framer.com/motion/) - An animation & gesture library
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@Nilkanth-Patadiya](https://github.com/Nilkanth-Patadiya) - Idea & Implementation
