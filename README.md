@@ -10,12 +10,6 @@
 
 </div>
 
-<p align="center" width="100%">
-<img
-  src="https://drive.google.com/uc?id=1NvoYe-6XNbAUDq1FLInP0d4MSMpOjICj"
-  width="75%"
-  height="auto" />
-</p>
 
 ## 📝 Table of Contents
 
