@@ -29,25 +29,49 @@ export const projectData: Project[] = [
     name: "Portfolio Website",
     description:
       "This is my personal portfolio website which features some of my github projects as well. It is fully responsive & user friendly website, also it supports both dark mode and light mode.",
-    projectURL: "https://nilkanthpatadiya.vercel.app/",
-    githubURL: `${githubProfile}/My-Portfolio`,
+    projectURL: "https://krisdan.vercel.app/",
+    githubURL: `${githubProfile}/kris_portfolio`,
     imgURL: "/portfolio.png",
   },
   {
-    name: "Pokédex",
+    name: "TinnitusHelp",
     description:
-      "A pokedex website that allows users to search and view information about various Pokémon characters. A fuzzy search feature is present on the home page. User can view more details by clicking on the particular pokémon.",
-    projectURL: "https://my-pokedex-nilkanth.vercel.app/",
-    githubURL: `${githubProfile}/my-pokedex`,
-    imgURL: "/pokedex.png",
+      "Built with Next.js, TypeScript, and Material UI, this blogs features in-depth articles, tips, and advice to better understand and manage tinnitus. The blog site is responsive, ensuring seamless navigation on all devices.",
+    projectURL: "https://www.tinnitushelp.me/",
+    githubURL: `${githubProfile}/blog-of-tinnitus`,
+    imgURL: "/tinnitus.png",
   },
   {
-    name: "Pizzeria",
+    name: "Ogno ",
     description:
-      "Pizzeria is a MEAN Stack web application, where users order pizza online. Users can choose from the existing menu and order pizzas, also they can also customize their pizza by choosing ingredients.",
-    projectURL: "",
-    githubURL: `${githubProfile}/Pizzeria`,
-    imgURL: "pizzeria.jpg",
+      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
+    projectURL: "https://ogno.netlify.app/analytics",
+    githubURL: `${githubProfile}/ogno`,
+    imgURL: "ogno.png",
+  },
+  {
+    name: "Ogno ",
+    description:
+      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
+    projectURL: "https://ogno.netlify.app/analytics",
+    githubURL: `${githubProfile}/ogno`,
+    imgURL: "ogno.png",
+  },
+  {
+    name: "Ogno ",
+    description:
+      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
+    projectURL: "https://ogno.netlify.app/analytics",
+    githubURL: `${githubProfile}/ogno`,
+    imgURL: "ogno.png",
+  },
+  {
+    name: "Ogno ",
+    description:
+      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
+    projectURL: "https://ogno.netlify.app/analytics",
+    githubURL: `${githubProfile}/ogno`,
+    imgURL: "ogno.png",
   },
 ]
 
@@ -55,7 +79,7 @@ export const experience = (
   (new Date().getTime() - new Date("2016-12-04").getTime()) /
   (1000 * 60 * 60 * 24 * 365.25)
 ).toLocaleString("en", {
-  maximumFractionDigits: 2,
+  maximumFractionDigits: 1,
 
   style: "unit",
   unit: "year",

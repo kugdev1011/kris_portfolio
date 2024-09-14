@@ -41,9 +41,9 @@ const Skills = ({ secHeight, navID }: CommonProps) => {
             My <BlueSpan>Skills</BlueSpan>
           </Typography>
         </Grid>
-        <Grid item container spacing={2}>
+        <Grid item container spacing={1}>
           {skillData?.map(({ name, imgURL }, i) => (
-            <Grid item key={name} xs={6} sm={3} lg={2}>
+            <Grid item key={name} xs={6} sm={3} lg={1.5}>
               <MotionStack
                 gap={1}
                 sx={{
@@ -63,7 +63,7 @@ const Skills = ({ secHeight, navID }: CommonProps) => {
               >
                 <Box
                   sx={{
-                    height: 80,
+                    height: 40,
                     width: 1,
                     display: "flex",
                     justifyContent: "center",
@@ -72,7 +72,7 @@ const Skills = ({ secHeight, navID }: CommonProps) => {
                   <Box
                     component={"img"}
                     sx={{
-                      maxInlineSize: "80%",
+                      maxInlineSize: "50%",
                       blockSize: "auto",
                       objectFit: "contain",
                     }}

@@ -14,6 +14,7 @@ import HomeIcon from "@mui/icons-material/Home"
 import HandymanIcon from "@mui/icons-material/Handyman"
 import PersonIcon from "@mui/icons-material/Person"
 import LayersIcon from "@mui/icons-material/Layers"
+import FolderIcon from "@mui/icons-material/Folder"
 import CallIcon from "@mui/icons-material/Call"
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward"
 import { LightTooltip } from "../styles/styledComponents"
@@ -23,6 +24,7 @@ import Skills from "./Skills"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import About from "./About"
+import Experience from "./Experience"
 import ScrollToTop from "../motion/ScrollToTop"
 import {
   navItems,
@@ -45,6 +47,7 @@ const Layout = () => {
     <PersonIcon />,
     <HandymanIcon />,
     <LayersIcon />,
+    <FolderIcon />,
     <CallIcon />,
   ]
 
@@ -181,8 +184,9 @@ const Layout = () => {
           <Home secHeight={secHeight} navID={navItems[0]} />
           <About secHeight={secHeight} navID={navItems[1]} />
           <Skills secHeight={secHeight} navID={navItems[2]} />
-          <Projects secHeight={secHeight} navID={navItems[3]} />
-          <Contact secHeight={secHeight} navID={navItems[4]} />
+          <Experience secHeight={secHeight} navID={navItems[3]} />
+          <Projects secHeight={secHeight} navID={navItems[4]} />
+          <Contact secHeight={secHeight} navID={navItems[5]} />
           <ScrollToTop>
             <Fab
               size="medium"

@@ -17,6 +17,7 @@
     "@fontsource/inter": "^5.0.16",
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@mui/icons-material": "^5.11.11",
+    "@mui/lab": "^6.0.0-beta.9",
     "@mui/material": "^5.11.13",
     "framer-motion": "^10.16.4",
     "mui-image": "^1.0.7",

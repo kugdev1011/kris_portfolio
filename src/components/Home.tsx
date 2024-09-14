@@ -62,7 +62,7 @@ const Home = ({ secHeight, navID }: CommonProps) => {
                     backgroundPosition: "right center",
                   },
                 }}
-                href={"#" + navItems[4]}
+                href={"#" + navItems[5]}
               >
                 Contact Me
               </Button>

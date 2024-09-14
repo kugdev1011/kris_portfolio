@@ -40,7 +40,7 @@ const About = ({ secHeight, navID }: CommonProps) => {
             <BlueSpan>About Me</BlueSpan>
           </Typography>
         </Grid>
-        <Grid item xs={12} md={5}>
+        <Grid item xs={12} md={3}>
           <Player
             src={
               "https://lottie.host/49f9657b-0967-40e8-a5cf-4a8835262ff8/3DV7zJE7j0.json"
@@ -50,7 +50,7 @@ const About = ({ secHeight, navID }: CommonProps) => {
             className="lottie-player"
           />
         </Grid>
-        <Grid item md={7} overflow={"hidden"}>
+        <Grid item md={9} overflow={"hidden"}>
           <Typography
             variant="body1"
             component={m.p}
@@ -59,7 +59,7 @@ const About = ({ secHeight, navID }: CommonProps) => {
             whileInView="whileInView"
             viewport={{ once: true }}
           >
-            <b>
+            <h2><b>
               I'm Kris Dan, a Senior Front End Developer with {experience}{" "}
               of experience in building user-friendly and responsive web
               applications using React and other modern technologies.
@@ -70,6 +70,7 @@ const About = ({ secHeight, navID }: CommonProps) => {
             multiple projects for clients across various domains and industries,
             delivering high-quality solutions that meet their needs and
             expectations.
+            </h2>
           </Typography>
           <Stack
             direction={{ xs: "column", md: "row" }}

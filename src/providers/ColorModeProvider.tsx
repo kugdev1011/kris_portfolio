@@ -4,7 +4,7 @@ import { ColorModeProviderProps } from "../App.props"
 const ColorModeContext = React.createContext<ColorModeProviderProps | null>(null)
 
 const ColorModeProvider = ({ children }: PropsWithChildren<unknown>) => {
-  const [mode, setMode] = React.useState<PaletteMode>("light")
+  const [mode, setMode] = React.useState<PaletteMode>("dark")
   return (
     <ColorModeContext.Provider
       value={{
