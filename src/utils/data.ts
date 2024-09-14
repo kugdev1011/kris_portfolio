@@ -10,9 +10,12 @@ export const skillData: Skill[] = [
   { name: "Python", imgURL: "/icons_python.svg" },
   { name: "Diango", imgURL: "/icons_diango.svg" },
   { name: "Nodejs", imgURL: "/icons_nodejs.svg" },
+  { name: "PHP", imgURL: "/icons_php.svg" },
   { name: "React", imgURL: "/logos_react.svg" },
   { name: "Angular", imgURL: "/icons_angular.svg" },
   { name: "Next.js", imgURL: "/logo_next.svg" },
+  { name: "Laravel", imgURL: "/icons_laravel.svg" },
+  { name: "CodeIgniter", imgURL: "/icons_codeigniter.svg" },
   { name: "Material UI", imgURL: "/logo_mui.svg" },
   { name: "Bootstrap", imgURL: "/logos_bootstrap.svg" },
   { name: "React Query", imgURL: "/react-query.svg" },
@@ -42,7 +45,7 @@ export const projectData: Project[] = [
     imgURL: "/tinnitus.png",
   },
   {
-    name: "Ogno ",
+    name: "Ogno",
     description:
       "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
     projectURL: "https://ogno.netlify.app/analytics",
@@ -50,28 +53,28 @@ export const projectData: Project[] = [
     imgURL: "ogno.png",
   },
   {
-    name: "Ogno ",
+    name: "AmazeTalk",
     description:
-      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
-    projectURL: "https://ogno.netlify.app/analytics",
-    githubURL: `${githubProfile}/ogno`,
-    imgURL: "ogno.png",
+      "Amazetalk is a real-time chat web app built with the MERN stack and Socket.IO, providing users with an intuitive platform for instant messaging using modern web technologies",
+    projectURL: "https://amaze-talk.web.app/",
+    githubURL: `${githubProfile}/AmazeTalk`,
+    imgURL: "amazetalk.png",
   },
   {
-    name: "Ogno ",
+    name: "Resumebuilder",
     description:
-      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
-    projectURL: "https://ogno.netlify.app/analytics",
-    githubURL: `${githubProfile}/ogno`,
-    imgURL: "ogno.png",
+      "Web based editor to create Resume in a customizable template with the facility to save the file in .pdf formate.",
+    projectURL: "https://krisdan.github.io/Resume-Builder/",
+    githubURL: `${githubProfile}/Resumebuilder`,
+    imgURL: "resumebuilder.png",
   },
   {
-    name: "Ogno ",
+    name: "NewsMagier",
     description:
-      "Ogno is marketing dashboard that is developed by React, Strapi.js. Built overview, Summary, Analytics, Campaigns, Users, Chat, Calendar, Videocall, Board, Files and Profile.",
-    projectURL: "https://ogno.netlify.app/analytics",
-    githubURL: `${githubProfile}/ogno`,
-    imgURL: "ogno.png",
+      "A news web application developed using React.js and hooks, integrated with the New York Times API for real-time news updates",
+    projectURL: "https://newsmagier.web.app/",
+    githubURL: `${githubProfile}/News-Magier`,
+    imgURL: "newsmagier.png",
   },
 ]
 
